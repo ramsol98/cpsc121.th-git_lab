@@ -1,13 +1,12 @@
-#include <iostream>
 #include "headers/frick.h"
+#include <iostream>
 
 using namespace std;
 
 int main()
 {
 	short unsigned int choice;
-	cout<<\
-	"0) Print \"This is an example.\"\
+	cout << "0) Print \"This is an example.\"\
 	\n1) \
 	\n2) \
 	\n3) \
@@ -27,10 +26,10 @@ int main()
 	\n17) \
 	\n18) \
 	\n";
-	cout<<"Please pick an option: ";
-	cin>>choice;
-	
-	switch (choice) {
+	cout << "Please pick an option: ";
+	cin >> choice;
+
+	switch(choice) {
 		case 0: print_an_example(); break;
 		case 1: break;
 		case 2: break;
@@ -51,6 +50,6 @@ int main()
 		case 17: break;
 		case 18: break;
 	}
-	
+
 	return 0;
 }
