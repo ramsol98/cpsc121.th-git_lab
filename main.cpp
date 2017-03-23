@@ -1,4 +1,4 @@
-#include "headers/frick.h"
+#include "headers/bfrick.h"
 #include <iostream>
 
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	short unsigned int choice;
-	cout << "0) Print \"This is an example.\"\
+	cout << "0) Convert examples to kilo-examples.\
 	\n1) \
 	\n2) \
 	\n3) \
@@ -30,18 +30,31 @@ int main()
 	cin >> choice;
 
 	switch(choice) {
-		case 0: print_an_example(); break;
-		case 1: break;
-		case 2: break;
-		case 3: break;
-		case 4: break;
-		case 5: break;
-		case 6: break;
-		case 7: break;
-		case 8: break;
-		case 9: break;
-		case 10: break;
-		case 11: break;
+		case 0:  // BFrick
+			examples_to_kiloxamples();
+			break;
+		case 1:  // LMendoza
+			break;
+		case 2:  // CNavarro
+			break;
+		case 3:  // YLi
+			break;
+		case 4:  // ALee
+			break;
+		case 5:  // GSrinivasan
+			break;
+		case 6:  // AAbuelhassan
+			break;
+		case 7:  // LSchauer
+			break;
+		case 8:  // KGriffin
+			break;
+		case 9:  // ISaghatchi
+			break;
+		case 10:  // THasani
+			break;
+		case 11:  // LPham
+			break;
 		case 12: break;
 		case 13: break;
 		case 14: break;
