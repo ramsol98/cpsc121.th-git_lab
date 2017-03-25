@@ -1,4 +1,5 @@
 #include "headers/bfrick.h"
+#include "headers/ccalinisan.h"
 #include <iostream>
 
 using namespace std;
@@ -18,7 +19,7 @@ int main()
 	\n9) \
 	\n10) \
 	\n11) \
-	\n12) \
+	\n12) Calculate the area of a rectangle. \
 	\n13) \
 	\n14) \
 	\n15) \
@@ -55,7 +56,9 @@ int main()
 			break;
 		case 11:  // LPham
 			break;
-		case 12: break;
+		case 12: // CCalinisan
+			calcRectangleArea();
+			break;
 		case 13: break;
 		case 14: break;
 		case 15: break;
