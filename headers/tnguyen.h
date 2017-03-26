@@ -2,3 +2,4 @@
 //Print function
 
 #include <iostream>
+int findarea(int length, int width, int height);
