@@ -59,7 +59,7 @@ int main()
 		case 12: break;
 		case 13: break;
 		case 14: //TnNguyen
-			surfaceArea_of_cube();
+			surfaceArea_of_Cube();
 			break;
 		case 15: break;
 		case 16: break;
