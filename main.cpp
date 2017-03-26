@@ -1,4 +1,5 @@
 #include "headers/bfrick.h"
+#include "headers/tnguyen.h"
 #include <iostream>
 
 using namespace std;
@@ -57,7 +58,9 @@ int main()
 			break;
 		case 12: break;
 		case 13: break;
-		case 14: break;
+		case 14: //TnNguyen
+			surfaceArea_of_cube();
+			break;
 		case 15: break;
 		case 16: break;
 		case 17: break;
