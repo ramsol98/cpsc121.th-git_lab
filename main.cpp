@@ -20,7 +20,7 @@ int main()
 	\n10) \
 	\n11) \
 	\n12) Calculate the area of a rectangle. \
-	\n13) \
+	\n13) Covert sol to meters.\
 	\n14) \
 	\n15) \
 	\n16) \
@@ -59,7 +59,8 @@ int main()
 		case 12: // CCalinisan
 			calcRectangleArea();
 			break;
-		case 13: break;
+		case 13://LNguyen
+			break;
 		case 14: break;
 		case 15: break;
 		case 16: break;
