@@ -1,6 +1,7 @@
 #include "headers/bfrick.h"
 #include "headers/ccalinisan.h"
 #include "headers/jolivares.h"
+#include "headers/Skinnie.h"
 #include <iostream>
 
 using namespace std;
@@ -9,7 +10,7 @@ int main()
 {
 	short unsigned int choice;
 	cout << "0) Convert examples to kilo-examples.\
-	\n1) \
+	\n1) Output a random color.\
 	\n2) \
 	\n3) \
 	\n4) \
@@ -35,7 +36,8 @@ int main()
 		case 0:  // BFrick
 			examples_to_kiloxamples();
 			break;
-		case 1:
+		case 1: //SKinnie
+			randColor();
 			break;
 		case 2:
 			break;
