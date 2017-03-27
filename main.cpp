@@ -1,4 +1,5 @@
 #include "headers/bfrick.h"
+#include "headers/ccalinisan.h"
 #include "headers/jolivares.h"
 #include <iostream>
 
@@ -19,7 +20,7 @@ int main()
 	\n9) \
 	\n10) \
 	\n11) \
-	\n12) \
+	\n12) Calculate the area of a rectangle. \
 	\n13) \
 	\n14) \
 	\n15) \
@@ -34,29 +35,31 @@ int main()
 		case 0:  // BFrick
 			examples_to_kiloxamples();
 			break;
-		case 1:  // LMendoza
+		case 1:
 			break;
-		case 2:  // CNavarro
+		case 2:
 			break;
-		case 3:  // YLi
+		case 3:
 			break;
-		case 4:  // ALee
+		case 4:
 			break;
-		case 5:  // GSrinivasan
+		case 5:
 			break;
-		case 6:  // AAbuelhassan
+		case 6:
 			break;
-		case 7:  // LSchauer
+		case 7:
 			break;
-		case 8:  // KGriffin
+		case 8:
 			break;
-		case 9:  // ISaghatchi
+		case 9:
 			break;
-		case 10:  // THasani
+		case 10:
 			break;
-		case 11:  // LPham
+		case 11:
 			break;
-		case 12: break;
+		case 12: // CCalinisan
+			calcRectangleArea();
+			break;
 		case 13: break;
 		case 14: break;
 		case 15: break;
