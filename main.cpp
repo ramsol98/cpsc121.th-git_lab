@@ -61,7 +61,7 @@ int main()
 			calcRectangleArea();
 			break;
 		case 13://LNguyen
-			petametertoAU();
+			petameterToAU();
 			break;
 		case 14: break;
 		case 15: break;
