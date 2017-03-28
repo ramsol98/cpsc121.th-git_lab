@@ -1,6 +1,7 @@
 #include "headers/bfrick.h"
 #include "headers/ccalinisan.h"
 #include "headers/jolivares.h"
+#include "headers/cprovost.h"
 #include <iostream>
 
 using namespace std;
@@ -22,7 +23,7 @@ int main()
 	\n11) \
 	\n12) Calculate the area of a rectangle. \
 	\n13) \
-	\n14) \
+	\n14) Converts weeks to beard inches\
 	\n15) \
 	\n16) \
 	\n17) \
@@ -61,7 +62,9 @@ int main()
 			calcRectangleArea();
 			break;
 		case 13: break;
-		case 14: break;
+		case 14: // CProvost
+            weeks_to_beard_inches();
+            break;
 		case 15: break;
 		case 16:  //JOlivares
 			pounds_to_poods();
