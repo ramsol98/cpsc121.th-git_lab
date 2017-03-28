@@ -1,5 +1,6 @@
 #include "headers/bfrick.h"
 #include "headers/ccalinisan.h"
+#include "headers/LNguyen.h"
 #include <iostream>
 
 using namespace std;
@@ -20,7 +21,7 @@ int main()
 	\n10) \
 	\n11) \
 	\n12) Calculate the area of a rectangle. \
-	\n13) Covert sol to meters.\
+	\n13) Covert petameter to AU.\
 	\n14) \
 	\n15) \
 	\n16) \
@@ -60,6 +61,7 @@ int main()
 			calcRectangleArea();
 			break;
 		case 13://LNguyen
+			petametertoAU();
 			break;
 		case 14: break;
 		case 15: break;
